@@ -1,0 +1,15 @@
+# FastAPI web framework
+fastapi==0.115.2
+# ASGI server to run the app locally
+uvicorn[standard]==0.32.0
+# ORM for SQLite/PostgreSQL
+SQLAlchemy==2.0.36
+# Password hashing
+passlib[bcrypt]==1.7.4
+# Pydantic for validation (FastAPI uses it)
+pydantic==2.9.2
+pydantic-settings==2.6.1
+# CORS (included with fastapi's starlette, but explicit here for clarity)
+starlette==0.40.0
+python-jose
+jinja2
