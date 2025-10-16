@@ -36,9 +36,9 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",    # Vite default
-        "http://localhost:5174",    # Your current port
-        "https://prakvedaa-crm-frontend.vercel.app",  # Will use later
+        "http://localhost:5173",
+        "http://localhost:5174",
+        "https://prakvedaa-crm-frontend.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
