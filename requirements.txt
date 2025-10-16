@@ -13,3 +13,5 @@ pydantic-settings==2.6.1
 starlette==0.40.0
 python-jose
 jinja2
+email-validator
+email-validator
